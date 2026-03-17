@@ -1,0 +1,50 @@
+.main-container {
+  min-height: 100vh;
+  background-color: #f8f8ff;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  font-family: 'Lobster';
+  color: #0f172a;
+  font-size: 36px;
+  margin-top: 30px;
+}
+
+.filters-list {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.repos-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 90%;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.failure-view {
+  text-align: center;
+}
+
+.failure-view img {
+  width: 250px;
+}
+
+.failure-view h1 {
+  color: #1e293b;
+  font-size: 20px;
+}

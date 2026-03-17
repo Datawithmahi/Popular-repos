@@ -1,0 +1,38 @@
+.repo-item {
+  list-style-type: none;
+  background-color: #ffffff;
+  margin: 10px;
+  padding: 20px;
+  width: 220px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.repo-img {
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+.repo-name {
+  color: #e73959;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.repo-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px 0;
+}
+
+.repo-info img {
+  width: 16px;
+  margin-right: 6px;
+}
+
+.repo-info p {
+  margin: 0;
+  font-size: 14px;
+  color: #1e293b;
+}
